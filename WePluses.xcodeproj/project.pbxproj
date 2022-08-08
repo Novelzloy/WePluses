@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		300C31A3289522D900B538FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31A2289522D900B538FE /* AppDelegate.swift */; };
 		300C31A5289522D900B538FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31A4289522D900B538FE /* SceneDelegate.swift */; };
-		300C31A7289522D900B538FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31A6289522D900B538FE /* ViewController.swift */; };
-		300C31AA289522D900B538FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300C31A8289522D900B538FE /* Main.storyboard */; };
 		300C31AD289522D900B538FE /* WePluses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 300C31AB289522D900B538FE /* WePluses.xcdatamodeld */; };
 		300C31AF289522DB00B538FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300C31AE289522DB00B538FE /* Assets.xcassets */; };
 		300C31B2289522DB00B538FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300C31B0289522DB00B538FE /* LaunchScreen.storyboard */; };
+		300C31BB289523CC00B538FE /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31BA289523CC00B538FE /* StartScreenViewController.swift */; };
+		300C31BF289688FB00B538FE /* ChooseGenderViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31BE289688FB00B538FE /* ChooseGenderViewController .swift */; };
+		300C31C62898637C00B538FE /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 300C31C52898637B00B538FE /* SF-Pro-Display-Bold.otf */; };
+		300C31C8289863D800B538FE /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 300C31C7289863D800B538FE /* SF-Pro-Display-Medium.otf */; };
+		300C31CA2898641C00B538FE /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 300C31C92898641C00B538FE /* SF-Pro-Display-Heavy.otf */; };
+		300C31CE28997A4F00B538FE /* SetHeightViewStController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31CD28997A4F00B538FE /* SetHeightViewStController.swift */; };
+		300C31D028997B5F00B538FE /* SetWeightKgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31CF28997B5F00B538FE /* SetWeightKgViewController.swift */; };
+		300C31D228997BE300B538FE /* SetHeightViewFtController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31D128997BE300B538FE /* SetHeightViewFtController.swift */; };
+		300C31D428997C5300B538FE /* SetWeightLbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C31D328997C5300B538FE /* SetWeightLbViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		300C319F289522D900B538FE /* WePluses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WePluses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		300C31A2289522D900B538FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		300C31A4289522D900B538FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		300C31A6289522D900B538FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		300C31A9289522D900B538FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		300C31AC289522D900B538FE /* WePluses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WePluses.xcdatamodel; sourceTree = "<group>"; };
 		300C31AE289522DB00B538FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		300C31B1289522DB00B538FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		300C31B3289522DB00B538FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300C31BA289523CC00B538FE /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		300C31BE289688FB00B538FE /* ChooseGenderViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChooseGenderViewController .swift"; sourceTree = "<group>"; };
+		300C31C52898637B00B538FE /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		300C31C7289863D800B538FE /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		300C31C92898641C00B538FE /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		300C31CD28997A4F00B538FE /* SetHeightViewStController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetHeightViewStController.swift; sourceTree = "<group>"; };
+		300C31CF28997B5F00B538FE /* SetWeightKgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWeightKgViewController.swift; sourceTree = "<group>"; };
+		300C31D128997BE300B538FE /* SetHeightViewFtController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetHeightViewFtController.swift; sourceTree = "<group>"; };
+		300C31D328997C5300B538FE /* SetWeightLbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWeightLbViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,55 @@
 		300C31A1289522D900B538FE /* WePluses */ = {
 			isa = PBXGroup;
 			children = (
-				300C31A2289522D900B538FE /* AppDelegate.swift */,
-				300C31A4289522D900B538FE /* SceneDelegate.swift */,
-				300C31A6289522D900B538FE /* ViewController.swift */,
-				300C31A8289522D900B538FE /* Main.storyboard */,
+				300C31BD289524B500B538FE /* Support */,
+				300C31BC2895241800B538FE /* System */,
+				300C31B9289523B400B538FE /* Views */,
 				300C31AE289522DB00B538FE /* Assets.xcassets */,
 				300C31B0289522DB00B538FE /* LaunchScreen.storyboard */,
-				300C31B3289522DB00B538FE /* Info.plist */,
 				300C31AB289522D900B538FE /* WePluses.xcdatamodeld */,
+				300C31B3289522DB00B538FE /* Info.plist */,
 			);
 			path = WePluses;
+			sourceTree = "<group>";
+		};
+		300C31B9289523B400B538FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				300C31BA289523CC00B538FE /* StartScreenViewController.swift */,
+				300C31BE289688FB00B538FE /* ChooseGenderViewController .swift */,
+				300C31CD28997A4F00B538FE /* SetHeightViewStController.swift */,
+				300C31D128997BE300B538FE /* SetHeightViewFtController.swift */,
+				300C31CF28997B5F00B538FE /* SetWeightKgViewController.swift */,
+				300C31D328997C5300B538FE /* SetWeightLbViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		300C31BC2895241800B538FE /* System */ = {
+			isa = PBXGroup;
+			children = (
+				300C31A2289522D900B538FE /* AppDelegate.swift */,
+				300C31A4289522D900B538FE /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		300C31BD289524B500B538FE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				300C31C22898616C00B538FE /* Font */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		300C31C22898616C00B538FE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				300C31C92898641C00B538FE /* SF-Pro-Display-Heavy.otf */,
+				300C31C7289863D800B538FE /* SF-Pro-Display-Medium.otf */,
+				300C31C52898637B00B538FE /* SF-Pro-Display-Bold.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300C31C8289863D800B538FE /* SF-Pro-Display-Medium.otf in Resources */,
+				300C31CA2898641C00B538FE /* SF-Pro-Display-Heavy.otf in Resources */,
 				300C31B2289522DB00B538FE /* LaunchScreen.storyboard in Resources */,
 				300C31AF289522DB00B538FE /* Assets.xcassets in Resources */,
-				300C31AA289522D900B538FE /* Main.storyboard in Resources */,
+				300C31C62898637C00B538FE /* SF-Pro-Display-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				300C31A7289522D900B538FE /* ViewController.swift in Sources */,
+				300C31D228997BE300B538FE /* SetHeightViewFtController.swift in Sources */,
+				300C31D428997C5300B538FE /* SetWeightLbViewController.swift in Sources */,
+				300C31D028997B5F00B538FE /* SetWeightKgViewController.swift in Sources */,
 				300C31AD289522D900B538FE /* WePluses.xcdatamodeld in Sources */,
 				300C31A3289522D900B538FE /* AppDelegate.swift in Sources */,
+				300C31BF289688FB00B538FE /* ChooseGenderViewController .swift in Sources */,
+				300C31BB289523CC00B538FE /* StartScreenViewController.swift in Sources */,
+				300C31CE28997A4F00B538FE /* SetHeightViewStController.swift in Sources */,
 				300C31A5289522D900B538FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		300C31A8289522D900B538FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				300C31A9289522D900B538FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		300C31B0289522DB00B538FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +348,6 @@
 				INFOPLIST_FILE = WePluses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +375,6 @@
 				INFOPLIST_FILE = WePluses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
